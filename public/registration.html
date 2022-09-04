@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: lightblue;">
+  <nav style="background-color: #000000; color: white;  padding-top: 25px; height: 50px; width: 100%;">
+    <span style="padding: 0px 20px;"><a href="#" style="text-decoration: none;">Home</a></span>
+    <span style="padding: 0px 20px;"><a href="#" style="text-decoration: none;">About</a></span>
+    <span style="padding: 0px 20px;"><a href="/registration" style="text-decoration: none;">Contact</a></span>
+    <span style="float: right; padding: 0px 20px;"><a href="/login.html" style="text-decoration: none;"><button style="background-color: #02a131; height: 5vh; width: 13vh; border-radius: 10%;">Login</button></a></span>
+  </nav>
+  <h1 style="font-style: italic; margin-top: 5vh; font-size: x-larger; text-align: center; margin-bottom: 5vh;">MY TODOs
+  </h1>
+  <section style="text-align: center; margin-top: 15vh;">
+    <p><em>Welcome to MY TODOs app, the app that helps you keep track of your todos</em></p>
+    <P><em>We have the right collections just for you!</em></P>
+
+    <h1 style="font-style: italic; margin-top: 5vh; font-size: x-larger; text-align: center; margin-bottom: 5vh;">Registration
+  </h1>
+    <form action="/register" method="POST">
+      <input style="width: 80vh; height: 3vh;" type="text" placeholder="Username" id="username" name="username" required>
+      <br><input style="width: 80vh; height: 3vh; margin-top: 4vh;" type="text" placeholder="Email" id="email" name="email" required><br>
+      
+      <input style="width: 80vh; height: 3vh; margin-top: 4vh;" type="tel" placeholder="Telephone" id="tel" name="tel" required><br>
+      
+      <input style="width: 80vh; height: 3vh; margin-top: 4vh;" type="text" placeholder="Password" id="password" name="password" required><br>
+      <button
+        style="background-color: #02a131; float: right; margin-right: 60vh; margin-top: 4vh; width: 10vh; height: 5vh;" type="submit">Submit</button>
+
+    </form>
+
+  </section>
+
+
+</body>
+
+</html>
