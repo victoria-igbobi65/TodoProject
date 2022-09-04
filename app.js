@@ -101,7 +101,7 @@ app.post("/addTask", (req, res) => {
       if (err) {
         console.log(err);
       } else {
-        res.render("todo", { userTask: task[user] });
+        res.render("todo ", { userTask: task[user] });
       }
     }
   );
